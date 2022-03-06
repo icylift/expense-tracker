@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { GlobalContext } from '../context/GlobalState'
 
 function TransactionList()  {
-  const context = useContext(GlobalContext);
+  const { transactions } = useContext(GlobalContext);
 
   return(
     <>
